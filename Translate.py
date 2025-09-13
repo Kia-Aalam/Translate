@@ -18,7 +18,7 @@ window.title("Translate")
 window.geometry("300x200")
 window.resizable(0 , 0)
 
-window.iconbitmap("icon.ico")
+# window.iconbitmap("icon.ico")
 
 string_var = tk.StringVar()
 text_entry = tk.Entry(window , width = 20 , justify = "center" , textvariable = string_var)
